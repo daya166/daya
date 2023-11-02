@@ -135,3 +135,4 @@ function getStream (type) {
     .catch(function (err) {
       alert('Error: ' + err);
     });
+}
