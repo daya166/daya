@@ -117,8 +117,8 @@ function getStream (type) {
 
   var constraints = {};
   constraints[type] = true;
-  
-  getUserMedia(constraints)
+
+    getUserMedia(constraints)
     .then(function (stream) {
       var mediaControl = document.querySelector(type);
       
