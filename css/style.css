@@ -107,17 +107,28 @@ h1 {
 }
 
 .task-board {
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 2px solid #000;
-            padding: 10px;
-        }
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+}
 
-        .column {
-            flex: 1;
-            padding: 10px;
-        }
+.column {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px; /* Mehr Platz nach unten für jede Spalte */
+}
 
-        .column:not(:last-child) {
-            border-right: 2px solid #000;
-        }
+.column:not(:last-child) {
+    border-right: 2px solid #000;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+}
