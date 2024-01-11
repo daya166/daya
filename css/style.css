@@ -118,6 +118,7 @@ h1 {
     padding: 10px;
     position: relative;
     margin-bottom: 2000px; /* Mehr Platz nach unten für jede Spalte */
+    border-right: 2px solid #000; /* Durchgezogener Strich zwischen den Spalten */
 }
 
 .column:not(:last-child) {
